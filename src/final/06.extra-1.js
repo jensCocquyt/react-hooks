@@ -5,9 +5,9 @@
 import * as React from 'react'
 import {
   fetchPokemon,
-  PokemonInfoFallback,
-  PokemonForm,
   PokemonDataView,
+  PokemonForm,
+  PokemonInfoFallback,
 } from '../pokemon'
 
 function PokemonInfo({pokemonName}) {
